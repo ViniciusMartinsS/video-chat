@@ -5282,13 +5282,13 @@
   module.exports = require('events').EventEmitter;
 
   },{"events":5}],22:[function(require,module,exports){
-  exports = module.exports = require('./lib/_stream_readable.js.js');
+  exports = module.exports = require('./lib/_stream_readable.js');
   exports.Stream = exports;
   exports.Readable = exports;
-  exports.Writable = require('./lib/_stream_writable.js.js');
-  exports.Duplex = require('./lib/_stream_duplex.js.js');
-  exports.Transform = require('./lib/_stream_transform.js.js');
-  exports.PassThrough = require('./lib/_stream_passthrough.js.js');
+  exports.Writable = require('./lib/_stream_writable.js');
+  exports.Duplex = require('./lib/_stream_duplex.js');
+  exports.Transform = require('./lib/_stream_transform.js');
+  exports.PassThrough = require('./lib/_stream_passthrough.js');
 
   },{"./lib/_stream_duplex.js":14,"./lib/_stream_passthrough.js":15,"./lib/_stream_readable.js":16,"./lib/_stream_transform.js":17,"./lib/_stream_writable.js":18}],23:[function(require,module,exports){
   /* eslint-disable node/no-deprecated-api */

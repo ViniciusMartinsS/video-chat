@@ -18,6 +18,7 @@ io.on('connection', function (socket) {
     }
 
     this.emit('SessionActive')
+    clients++
   })
 
   socket.on('Offer', sendOffer)
